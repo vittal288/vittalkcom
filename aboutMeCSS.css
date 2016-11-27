@@ -1,0 +1,38 @@
+[class*=" icon-"] {
+  display: inline-block;
+  width: 500px;
+  height: 150px;
+  *margin-right: .3em;
+  
+  vertical-align: text-top;
+  background-image: url("images/vittalLabel.png");
+ 
+  background-repeat: no-repeat;
+  margin-top: 1px;
+ /* border:1px solid #FFFFFF;*/
+}
+.icon-proffession {
+  background-position: 0px 0px;/*LEFT TOP */
+}
+.icon-passion {
+  background-position: -340px -226px;
+  
+}
+.icon-hobby {
+  background-position: -40px -427px;
+  
+}
+
+.icon-skill {
+  background-position: -334px -679px;
+  
+}
+.icon-contactMe {
+  background-position: -607px -454px
+  
+  
+}
+.icon-iamSocial {
+  background-position: -531px -68px;
+}
+

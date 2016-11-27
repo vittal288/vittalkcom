@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Keep In Touch</title>
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.css"/>
+    
+   
+    <link rel="stylesheet" href="reset.css"/>
+    <link rel="stylesheet" href="commonCSS.css"/>
+    
+    <!-- Image Spriting -->
+	 <link href="aboutMeCSS.css" rel="stylesheet">
+	 
+    <!-- CUSTOM SCROLL --> 
+	<link href="libs/customScroll/jquery.mCustomScrollbar.css" rel="stylesheet" />
+    <!--[if IE 8]>
+	<link type="text/css" href="IE8Styles.css" rel="stylesheet"/>
+	<![endif]-->
+	<!--  SCRIPT FILE -->
+	
+    
+    <script type="text/javascript" src="libs/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="libs/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="libs/ajax_service.js"></script>
+    <script type="text/javascript" src="libs/contactMe.js"></script>
+    <script type="text/javascript" src="libs/commonJS.js"></script> 
+	
+    
+</head>
+<body>
+	<div class="modal fade hide" id="modalDialog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	    <div class="modal-dialog">
+			 <div class="loadingImg">
+				<img alt="Loading..." src="images/loading.gif">
+			</div>
+	    </div><!-- /.modal-dialog -->
+	    
+	  </div><!-- /.modal -->
+	<div class="POPUPS">
+	<!-- POP UP related to this page -->
+	
+	</div><!-- ALL POPUPS END -->
+  	<div class="wrapper">
+	    <div class="mainContainer">
+	        <header class="header">
+		        <nav>
+				    <ul id="topTab">		           
+				        <li><a href="myHomePage.html">Home</a></li>
+						<li><a href="aboutMe.html">About Me</a></li>
+						<li><a href="Portfolio.html">Portfolio</a></li>
+						<li class="selected"><a href="contactMe.html">Keep In Touch</a></li>
+						<li><a href="more.html">More</a></li>
+					</ul>
+			   </nav>  		
+		    </header>
+	        <div class="row-fluid mrgnTop10">
+	        	<div class="span12">
+	        		<div id="cstmMsg" class="row-fluid wdth95prcnt hide cstmHdr">
+	        			<div class="row-fluid">
+	        				<h3>Thanks For Contacting Me....!!!</h3>
+	        			</div>
+	        		</div>
+	        		
+	        		<!-- <div id="noDatamMsg" class="row-fluid wdth95prcnt hide">
+	        			<div class="row-fluid">
+	        				<h3>All Fields Are Mandatory</h3>
+	        			</div>
+	        		</div>  -->
+		        	<div class="row-fluid">
+	        			<div class="pull-left icon-contactMe ">
+	        				
+	        			</div>
+	        			<div class="cnctCntr">
+	        				<div id="conctactFormCntnr" class="pull-right container">
+		        				  <div class="contactForm">
+			        				  <div class="row-fluid">
+			        				  		<label id="lblError"></label>
+			        				  </div>
+			        				  <div class="form-group">
+									    <input type="email" autocomplete="on" class="form-control cnctTextBx" id="cnctname" placeholder="Enter Your Name">
+									  </div>
+									  <div class="form-group">
+									    <input type="text"autocomplete="on"  class="form-control cnctTextBx" id="cnctEmail" placeholder="Enter Your Emal-id">
+									  </div>
+									  <div class="form-group">
+									   	<input type="text" autocomplete="on" class="form-control cnctTextBx" id="cnctMob" placeholder="Enter Your Mobile No">
+									  </div>
+									  <div class="form-group">
+									   	  <textarea id="contactTextArea" class="form-control cnctTextBx" rows="4" cols="35" placeholder="Put Few Words"></textarea>
+									  </div>
+									  <button id="btnCnctMe" type="submit" class="btn cstmbtn">Contact Me</button>
+									  <button id="btnReset" type="submit" class="btn cstmbtn">Reset</button>
+								  </div>
+							</div>
+						</div>
+	        		</div>
+	        		<div class="row-fluid">
+	        			<div class="pull-left profession container">
+	        				<div class="socialLink">
+		        				 <div class="row-fluid">
+		        				 	<div class="pull-left mrgn10"><img class="roatateImg" src="images/facebook.png"/></div>
+		        				 	<div class="pull-left mrgn10"><a class="followMeAncrTag" href="https://www.facebook.com/vittal.kamkar" target="_blank">Facebook</a></div>
+		        				 </div>
+		        				  <div class="row-fluid">
+		        				 	<div class="pull-left mrgn10"><img class="roatateImg" src="images/twitter.png"/></div>
+		        				 	<div class="pull-left mrgn10"><a class="followMeAncrTag" href="https://twitter.com/vittalkamkar" target="_blank">Twitter</a></div>
+		        				 </div>
+		        				  <div class="row-fluid">
+		        				 	<div class="pull-left mrgn10"><img class="roatateImg" src="images/gplus.png"/></div>
+		        				 	<div class="pull-left mrgn10"><a class="followMeAncrTag" href="https://plus.google.com/u/0/113415790948377387177" target="_blank">Google Plus</a></div>
+		        				 </div>
+		        				  <!-- <div class="row">
+		        				 	<div class="pull-left mrgn10"><img class="roatateImg" src="images/gplus.png"/></div>
+		        				 	<div class="pull-left mrgn10"><a class="followMeAncrTag" href="https://www.facebook.com/vittal.kamkar" target="_blank">Facebook</a></div>
+		        				 </div>  -->
+		        			 </div>
+	        			</div>
+	        			<div class="pull-right icon-iamSocial">
+	        				
+	        			</div>
+	        		</div>
+	        		
+	        		
+	        		
+	        	</div>
+	        </div>
+		</div>
+		 <footer class="footer">
+		
+		</footer>		
+	</div>
+	
+	<!-- custom scrollbars plugin -->
+	<script src="libs/customScroll/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="libs/jquery-ui.js"></script>
+   
+    
+   
+</body>
+</html>

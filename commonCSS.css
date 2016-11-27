@@ -1,0 +1,104 @@
+/************Home Page ************/
+div.mydsgnImgCntr img{
+	border:1px solid #3d3d3d;
+	margin-top: 150px;
+	margin-left: 50px;
+	
+	-webkit-box-shadow: 0 20px 10px -10px black;
+	   -moz-box-shadow: 0 20px 10px -10px black;
+	        box-shadow: 0 20px 10px -10px black;
+}
+
+.cstmRow{
+	border:1px solid #ff0000;
+}
+.txtCntr{
+	margin: 0px auto;
+	height: 95%;
+	width:95%;
+	/*border:1px solid #ffffff;*/
+}
+.txtCntr p{
+	color:#FFFFFF;
+}
+
+/*****ABOUT ME************/
+
+.slidingDiv{
+	height:auto;
+}
+.myCVCntr{
+	width:90%;
+	margin: 0px auto;
+	height:auto;
+	/*border:1px solid #FFFFFF;*/
+}
+.icon-download{
+	background: url(images/downArrow.png);
+	background-position: -3px -12px;
+}
+.slideLbl:hover,.dowLdLbl:hover{
+	color: #269AED;
+}
+/**************CONTACT ME***********/
+.cnctCntr
+{
+	position: relative;
+}
+.cnctOvelay{
+	border:1px solid #FFFFFF;
+	position: absolute;
+	z-index: 10;
+	background: #000000;
+	opacity:0.5;
+	position: absolute;
+	border-radius:5px;
+}
+.loadingImg{
+	width:40px;
+	height:40px;
+	margin: 0px auto;
+	margin-top:200px;
+	
+}
+.cnctHdr{
+	width:20%;
+	margin: 0px auto;
+}
+.contactForm{
+	width:200px;
+	margin: 0px auto;
+}
+.socialLink{
+	width:50%;
+	margin: 0px auto;
+}
+.cnctTextBx
+{
+	font-family: customFontMedium;
+	border:none !important;
+	background:none !important;
+	border-bottom:1px solid #575757 !important;
+	color:#f5f5f5 !important;
+	font-size: 15px;	
+}
+.cnctTextBx:focus{
+	box-shadow: none !important;
+	border:none !important;
+	border-bottom:2px solid #FFFFFF !important;
+	color:#f5f5f5 !important;
+}
+label#lblError{
+	color:#ff0000;
+	margin-left: 20px;
+}
+.validateError
+{
+	box-shadow: none !important;
+	font-family: customFontMedium;
+	border:none !important;
+	background:none !important;
+	border-bottom:1px solid #FF0000 !important;
+	font-size: 15px;	
+	color:#ff0000 !important;
+}

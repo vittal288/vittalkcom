@@ -1,0 +1,205 @@
+@font-face 
+{
+	font-family: customFontMedium;
+	src: url('libs/customFonts/customFontMedium.ttf');
+}
+html, body {height: 100%;}
+body {
+  background: url("images/BGLayer.png") repeat fixed center top;
+    color: #FFFFFF;
+    font-size: 12px;
+    text-shadow: 0 1px 0 #000000;
+    overflow-y:auto;
+    overflow-x:hidden; 
+    font-family: customFontMedium;
+}
+
+a{
+	cursor: pointer;
+	color: #269AED !important;
+	padding: 5px;
+}
+
+a,span,label,p
+{
+	font-family: customFontMedium;
+	font-size: 14px;
+	cursor: pointer;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: customFontMedium;
+}
+.wrapper {
+    margin: 0 auto;
+    position: relative;
+    width:95%;
+}
+.mainContainer{
+    padding: 0;
+    padding-bottom:20px;
+    width:100%;
+    border: 1px solid #333333;
+    -moz-box-shadow:    inset 0 0 20px #ffffff;
+    -webkit-box-shadow: inset 0 0 20px #ffffff;
+    box-shadow:         inset 0 0 20px #ffffff;
+    border-radius:25px;
+}
+.container{
+    width: 350px;
+    min-height:180px;
+    max-height:auto;
+    padding:10px;
+    margin:10px;
+    margin-bottom:20px;
+    border: 1px solid #666666;
+    border-radius:5px;
+   -webkit-box-shadow: 0 25px 10px -5px black;
+	   -moz-box-shadow: 0 25px 10px -5px black;
+	        box-shadow: 0 25px 10px -5px black;
+}
+.footer{
+	width: 100%;
+	height: 30px;
+	margin-bottom:0px; 
+}
+.myFtrData{
+	width: 30%;
+	margin: 0px auto;
+}
+.txtUnderLine{
+	text-decoration: underline;
+}
+/***** Header Navigation Start ******/
+ul#topTab 
+{
+  list-style-type: none;
+  width: 100%;
+  position: relative;
+ 
+}
+ul#topTab li a{
+	 color:#FFFFFF;
+}
+ul#topTab li 
+{
+  display: block;
+  float: left;
+  height: 20px;
+  margin-left:6%;
+  margin-top:5px;
+  padding-left:1%;
+  padding-right:1%;
+  border-radius:8px 0px 8px 0px;
+ 
+  text-decoration: none;
+  font-family:customFontMedium;
+  font-size: 14px;
+}
+ul#topTab li.selected a{
+	 color:#269AED;
+}
+ul#topTab li.selected
+{ 
+   
+	-moz-box-shadow: 1px 1px 5px 4px #FFFFFF;
+	-webkit-box-shadow: 1px 1px 5px 4px #FFFFFF;
+	box-shadow: 1px 1px 5px 4px #FFFFFF;
+}
+ul#topTab li a:hover{
+	color:#269AED;
+	text-decoration: none;
+} 
+ul#topTab li:hover 
+{
+ 	 
+	font-family: customFontMedium;
+	-moz-box-shadow: 1px 1px 5px 4px #FFFFFF;
+	-webkit-box-shadow: 1px 1px 5px 4px #FFFFFF;
+	box-shadow: 1px 1px 5px 4px #FFFFFF;
+	cursor: pointer;
+}
+.lblOrng
+{
+	color:#ed7d1a;
+}
+.mrgn10{
+	margin:10px;
+}
+.mrgnTop10{
+	margin-top:60px !important;
+}
+.mrginLft50{
+	margin:50px;
+}
+.roatateImg
+{
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+     
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+    overflow:hidden;
+} 
+.roatateImg:hover   
+{ 
+    -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg); 
+    -o-transform:rotate(360deg);
+	cursor:pointer;
+}
+.cstmbtn{
+	background: none !important;
+	color: #ffffff;
+	 -moz-box-shadow:    inset 0 0 8px #ffffff;
+   -webkit-box-shadow: inset 0 0 8px #ffffff;
+   box-shadow:         inset 0 0 8px #ffffff;
+   font-family: customFontMedium;
+}
+.cstmbtn:hover{
+	color: #ffffff;
+	 -moz-box-shadow:    inset 0 0 15px #ffffff;
+   -webkit-box-shadow: inset 0 0 15px #ffffff;
+   box-shadow:         inset 0 0 15px #ffffff;
+}
+.wdth95prcnt{
+	width: 95% !important;
+	margin: 0px auto;
+	margin-top:30px;
+    min-height:30px;
+    padding:10px;
+   
+}
+.cstmHdr{
+	 border: 1px solid #666666;
+    border-radius:5px;
+    border: 1px solid #333333;
+    -moz-box-shadow:    inset 0 0 20px #ffffff;
+    -webkit-box-shadow: inset 0 0 20px #ffffff;
+    box-shadow:         inset 0 0 20px #ffffff;
+}
+.imgArrow{
+	width: 30px;
+	height: 20px;
+	margin-top:12px;
+}
+ul.customList li{
+   background: url(images/forwardArow.png) no-repeat left top;
+  padding: 2px 1px 3px 30px;
+  list-style: none;
+}
+/****CUSTOM BOOTSTRAP****/
+.modal{
+	opacity:0.5 !important;
+	background: transparent !important;
+}
+.modal-backdrop{
+	/*opacity:0.5 !important;*/
+}
+.panel-body{
+	border-bottom:1px solid #FFFFFF;
+	margin: 10px;
+}
